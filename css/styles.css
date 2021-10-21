@@ -139,17 +139,23 @@ figure{
 
     float: left;
 
+    margin-right: 30%;
+
 }
 
 .righttext > h2 {
 
     float: right;
 
+    margin-left: 80%;
+
 }
 
 .righttext > p {
 
     margin-right: 10px;
+
+    text-align: right;
 
 }
 
