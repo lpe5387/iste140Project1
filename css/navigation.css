@@ -25,6 +25,12 @@ nav ul{
 
 }
 
+nav li {
+
+    padding: 10px;
+
+}
+
 nav li a {
     
     flex-basis: 500px;
@@ -35,7 +41,7 @@ nav li a {
 
     border-radius: 1px;
 
-    padding: 5px;
+    padding: 10px;
 
     display: block;
 
@@ -51,8 +57,8 @@ nav li a:hover {
 
 #Navigation_Bar a.is-current {
 
-    background-color: #47008a;
+    background-color: #c52f2f;
 
-    color: rgb(0, 132, 255);
+    color: rgb(102, 181, 255);
 
 }

@@ -39,6 +39,14 @@ h1 {
 
     padding: 5px;
 
+    width: 770px;
+
+    text-align: center;
+
+    position: absolute;
+
+    top: 40px;
+
 }
 
 header{
@@ -72,6 +80,12 @@ header{
 
 }
 
+article {
+
+    border: 10px solid #e8e8f0
+
+}
+
 h2{
 
     color: #750000;
@@ -85,6 +99,10 @@ h2{
     padding: 5px;
     
     font-style: italic;
+
+    width: 250px;
+
+    text-align: center;
 
 }
 
@@ -104,6 +122,34 @@ figure{
     float: right;
 
     margin: 20px left;
+
+}
+
+.lefttext > figure {
+
+    float: right;
+
+    right: 40px;
+
+    
+
+}
+
+.righttext > figure {
+
+    float: left;
+
+}
+
+.righttext > h2 {
+
+    float: right;
+
+}
+
+.righttext > p {
+
+    margin-right: 10px;
 
 }
 
