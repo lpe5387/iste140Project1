@@ -3,4 +3,56 @@ nav{
 
     background-color: #30325f;
 
+    border: 4px double #1d2e91 ;
+
+}
+
+nav ul{
+
+    font-size: 20px;
+
+    color: #000000;
+
+    display: flex;
+    
+    justify-content: center;
+    
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+nav li a {
+    
+    flex-basis: 500px;
+
+    border: 1px solid #346aff ;
+
+    background-color: #0a1024;
+
+    border-radius: 1px;
+
+    padding: 5px;
+
+    display: block;
+
+}
+
+nav li a:hover {
+
+    background-color: #0fe3ff;
+
+    color: #862507;
+
+}
+
+#Navigation_Bar a.is-current {
+
+    background-color: #47008a;
+
+    color: rgb(0, 132, 255);
+
 }
