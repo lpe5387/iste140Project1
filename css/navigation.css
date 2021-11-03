@@ -3,7 +3,7 @@ nav{
 
     background-color: #30325f;
 
-    border: 4px double #00158a ;
+    border: 4px solid #00158a ;
 
 }
 
@@ -35,7 +35,7 @@ nav li a {
     
     flex-basis: 500px;
 
-    border: 5px double #cc2020 ;
+    border: 2px solid #cc2020 ;
 
     background-color: #2f4ca8;
 
@@ -44,6 +44,8 @@ nav li a {
     padding: 10px;
 
     display: block;
+
+    text-decoration: none;
 
 }
 
