@@ -85,7 +85,7 @@ header h1 {
 
 }
 
-#Container{
+.container{
 
     grid-row: 3/4;
 
@@ -100,19 +100,30 @@ header h1 {
 
 }
 
-article { grid-row: 1/2; }
+article { 
+    grid-row: 1/2; 
+    margin-top: 20px;
+}
 
 article figure { float: right; }
 
-aside { grid-row: 2/3; }
+aside { 
+    grid-row: 2/3;
+    margin-top: 20px;
+}
 
 aside figure { float: left; }
 
-section { grid-row: 3/4; }
+section { 
+    grid-row: 3/4;
+    margin-top: 20px;
+}
 
 section figure { float: right; }
 
-table { grid-row: 4/5; }
+table { grid-row: 4/5;
+    margin: 30px 20px 30px 20px;
+}
 
 h2{
 
@@ -167,6 +178,8 @@ footer{
     font-weight: bold;
 
     line-height: 1.5em;
+
+    padding-right: 20px;
 
 }
 
