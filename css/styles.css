@@ -3,7 +3,9 @@ body {
     
     color: #000000;
     
-    background-color: #4057a1;
+    background-color: royalblue;
+
+    border: solid darkgray;
 
     font-family: Arial, Helvetica, sans-serif;
 
@@ -41,13 +43,13 @@ header{
 
 header h1 {
 
-    color: #750000;
+    color: darkgray;
 
     font-size: 35px;
 
-    background-color: #e23a3a;
+    background-color: maroon;
 
-    border: 3px solid #af1f1f;
+    border: 3px solid darkgray;
 
     border-radius: 25px;
 
@@ -100,6 +102,7 @@ header h1 {
 
 }
 
+
 article { 
     grid-row: 1/2; 
     margin-top: 20px;
@@ -127,13 +130,20 @@ table { grid-row: 4/5;
 
 h2{
 
-    color: #750000;
+    color: darkgray;
 
-    background-color: #e23a3a;
+    background-color: maroon;
 
-    border-left: 10px double #701515;
+    border-left: 15px double darkgray;
+    border-top: solid;
+    border-right: 15px double;
+    border-bottom: solid;
+
+
 
     border-radius: 5px;
+
+    border-color: darkgray;
 
     padding: 5px;
     
@@ -198,3 +208,92 @@ a:hover {
     color: #ce1b1b; 
 
 }
+
+
+/* MEDIA QUERIES*/
+
+
+/* 580px */
+
+@media (max-width: 580px) {
+
+    .container{
+
+        display: block;
+    }
+
+    body{
+
+        display: block;
+    }
+
+    body, figure{
+
+        width: 85%;
+    }
+
+
+    figure{
+
+        text-align: center;
+    }
+
+    h2{
+
+        margin-top: 20px;
+        
+    }
+
+
+    #Section_Title, #Title_within_background_image{
+
+        font-size: 25px;
+    }
+}
+
+/* 560px */
+
+@media (max-width: 560px) {
+
+    header{
+
+        height: 200px;
+    }
+
+    .description{
+
+        color: black;
+        font-size: 10px;
+        padding-bottom: 4px;
+    }
+
+    #Header_for_backstory{
+
+        margin-bottom: 15px;
+    }
+
+    h2{
+
+        margin-left: auto;
+        margin-right: auto;
+        max-width: fit-content;
+
+    }
+
+    article{
+
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+    
+
+
