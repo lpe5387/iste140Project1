@@ -63,14 +63,6 @@ nav li a:hover {
 
 }
 
-#Navigation_Bar a:is-current {
-
-    background-color: #8b8cdb;
-
-    color: rgb(56, 88, 231);
-
-}
-
 
 
 /* MEDIA QUERIES*/
@@ -84,7 +76,6 @@ nav li a:hover {
 
         max-height: 30px;
         font-size: 14px;
-        padding-top: none;
         text-align: center;
     }
 }
