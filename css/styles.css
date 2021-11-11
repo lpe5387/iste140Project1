@@ -177,11 +177,17 @@ ul{
 
 }
 
+table, th, td{
+
+    border-color: maroon;
+    border-style: solid;
+}
+
 footer{
 
     grid-row: 4/5;
 
-    background-color: #606fb1;
+    background-color: maroon;
 
     padding: 5px;
 
@@ -192,6 +198,12 @@ footer{
     padding-right: 20px;
 
 }
+
+footer h2{
+
+    background-color: royalblue;
+}
+
 
 a{
 
@@ -245,7 +257,7 @@ a:hover {
     }
 
 
-    #Section_Title, #Title_within_background_image{
+    .section_header{
 
         font-size: 25px;
     }
@@ -267,10 +279,7 @@ a:hover {
         padding-bottom: 4px;
     }
 
-    #Header_for_backstory{
-
-        margin-bottom: 15px;
-    }
+   
 
     h2{
 
