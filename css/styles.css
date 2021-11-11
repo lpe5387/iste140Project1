@@ -47,6 +47,8 @@ header h1 {
 
     font-size: 35px;
 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     background-color: maroon;
 
     border: 3px solid darkgray;
@@ -63,7 +65,7 @@ header h1 {
 
     margin-right: auto;
 
-
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 
 }
 
@@ -71,13 +73,15 @@ header h1 {
 
     padding: 14px;
 
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.534);
 
     border-radius: 15px;
 
     font-weight: bold;
 
-    font-size: 14px;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+
+    font-size: 15px;
 
     width: 65%;
 
@@ -124,8 +128,16 @@ section {
 
 section figure { float: right; }
 
-table { grid-row: 4/5;
+table { 
+    
+    grid-row: 4/5;
+    
     margin: 30px 20px 30px 20px;
+
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+
+    background-color: #9c9caa;
+
 }
 
 h2{
@@ -139,7 +151,7 @@ h2{
     border-right: 15px double;
     border-bottom: solid;
 
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     border-radius: 5px;
 
@@ -154,6 +166,8 @@ h2{
     text-align: center;
 
     margin-left: 20px;
+
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
 
 }
 
@@ -207,7 +221,7 @@ footer h2{
 
 a{
 
-    color: #6592f3;
+    color: #7aaef3;
 
     text-decoration: underline;
 
