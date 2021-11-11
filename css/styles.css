@@ -128,8 +128,16 @@ section {
 
 section figure { float: right; }
 
-table { grid-row: 4/5;
+table { 
+    
+    grid-row: 4/5;
+    
     margin: 30px 20px 30px 20px;
+
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+
+    background-color: #9c9caa;
+
 }
 
 h2{
