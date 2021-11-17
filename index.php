@@ -11,6 +11,20 @@
 
 		<div class="container">
 
+			<h2>Timelapse of Philadelphia</h2>
+			<!-- where owl carousel timeline will go -->
+			<div id="owl-demo" class="owl-carousel owl-theme">
+
+				<div class="item">Option 1</div>
+				<div class="item">Option 2</div>
+				<div class="item">Option 3</div>
+				<div class="item">Option 4</div>
+				<div class="item">Option 5</div>
+				<div class="item">Option 6</div>
+				<div class="item">Option 7</div>
+
+			</div>
+
 			<article>
 
 				<h2>History</h2>
@@ -31,6 +45,24 @@
 		</div>	
 
 		<?php include "inc/footer.php";?>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script>
+			$(document).ready(function() {
+ 
+  				$("#owl-demo").owlCarousel({
+ 
+      				autoPlay: 3000, //Set AutoPlay to 3 seconds
+ 
+      				items : 4,
+      				itemsDesktop : [1199,3],
+      				itemsDesktopSmall : [979,3]
+ 
+  				});
+ 
+			});
+		</script>
 
 	</body>
 </html>
