@@ -2,13 +2,17 @@
 
 	<body>
 		
-		<?php include "inc/nav.php";?>
+		<div class="above">
 
-		<header>
-			
-			<h1 class="section_header">Philly Foods</h1>
+			<?php include "inc/nav.php";?>
 
-		</header>
+			<header>
+				
+				<h1 class="section_header">Philly Foods</h1>
+
+			</header>
+		
+		</div>
 
 		<div class="container">
 

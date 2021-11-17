@@ -2,11 +2,15 @@
 
 	<body>
 		
-		<?php include "inc/nav.php";?>
+		<div class="above">
 
-		<header>
-			<h1 class="section_header">Iconic Films</h1>
-		</header>
+			<?php include "inc/nav.php";?>
+
+			<header>
+				<h1 class="section_header">Iconic Films</h1>
+			</header>
+		
+		</div>
 
 		<div class="container">
 			<article>

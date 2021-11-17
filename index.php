@@ -2,28 +2,18 @@
 
 	<body>
 		
-		<?php include "inc/nav.php";?>
+		<div class="above">
 
-		<header>
-			<h1 class="index_header">The City of Brotherly Love</h1>
-			<p class="description">Philadelphia is a scrappy underdog with a heart of gold, and who can resist a Rocky reference? The eye of the tiger. Slowly but steadily Philly has changed from a city of industrial might in the first half of the past century to a city of ingenious makers. The evidence is everywhere.</p>
-		</header>
+			<?php include "inc/nav.php";?>
+
+			<header>
+				<h1 class="index_header">The City of Brotherly Love</h1>
+				<p class="description">Philadelphia is a scrappy underdog with a heart of gold, and who can resist a Rocky reference? The eye of the tiger. Slowly but steadily Philly has changed from a city of industrial might in the first half of the past century to a city of ingenious makers. The evidence is everywhere.</p>
+			</header>
+
+		</div>
 
 		<div class="container">
-
-			<h2>Timelapse of Philadelphia</h2>
-			<!-- where owl carousel timeline will go -->
-			<div id="owl-demo" class="owl-carousel owl-theme">
-
-				<div class="item">Option 1</div>
-				<div class="item">Option 2</div>
-				<div class="item">Option 3</div>
-				<div class="item">Option 4</div>
-				<div class="item">Option 5</div>
-				<div class="item">Option 6</div>
-				<div class="item">Option 7</div>
-
-			</div>
 
 			<article>
 
@@ -42,7 +32,22 @@
 
 			</aside>
 
-		</div>	
+		</div>
+		
+		<div id="owl-owl">
+			<h2>Timelapse of Philadelphia</h2>
+			<div id="owl-demo" class="owl-carousel owl-theme">
+
+				<div class="item">Option 1</div>
+				<div class="item">Option 2</div>
+				<div class="item">Option 3</div>
+				<div class="item">Option 4</div>
+				<div class="item">Option 5</div>
+				<div class="item">Option 6</div>
+				<div class="item">Option 7</div>
+
+			</div>
+		</div>
 
 		<?php include "inc/footer.php";?>
 
@@ -54,10 +59,14 @@
   				$("#owl-demo").owlCarousel({
  
       				autoPlay: 3000, //Set AutoPlay to 3 seconds
- 
+ 					navigation: false,
+ 					goToFirst: true,
+
       				items : 4,
       				itemsDesktop : [1199,3],
-      				itemsDesktopSmall : [979,3]
+      				itemsDesktopSmall : [979,3],
+      				itemsTablet: false,
+      				itemsMobile: false
  
   				});
  

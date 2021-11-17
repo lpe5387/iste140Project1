@@ -14,13 +14,15 @@ body {
     width: 100%;
 
     max-width: 800px;
+    
+}
 
+.above {
     display: grid;
 
     grid-template-rows: 75px 400px;
 
     grid-auto-rows: max-content;
-    
 }
 
 nav { grid-row: 1/2; }
@@ -117,6 +119,11 @@ article figure { float: right; }
 aside { 
     grid-row: 2/3;
     margin-top: 20px;
+}
+
+#owl-owl {
+    background-color: #efeffa;
+    padding-top: 1px;
 }
 
 aside figure { float: left; }
