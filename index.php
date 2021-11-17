@@ -35,16 +35,41 @@
 		</div>
 		
 		<div id="owl-owl">
-			<h2>Timelapse of Philadelphia</h2>
+			<h2>Major Events of Philadelphia</h2>
 			<div id="owl-demo" class="owl-carousel owl-theme">
 
-				<div class="item">Option 1</div>
-				<div class="item">Option 2</div>
-				<div class="item">Option 3</div>
-				<div class="item">Option 4</div>
-				<div class="item">Option 5</div>
-				<div class="item">Option 6</div>
-				<div class="item">Option 7</div>
+				<div class="item">
+					<img src="images/carousel/charter.jpg" alt="Pennsylvania Charter">
+					<p>Pennsylvania Charter given to Willam Penn</p>
+				</div>
+				<div class="item">
+					<img src="images/carousel/carpenters-hall.jpg" alt="Carpenter's Hall">
+					<p>Continental Congress meets at Carpenter's Hall</p>
+				</div>
+				<div class="item">
+					<img src="images/carousel/declaration.jpg" alt="Declaration of Independance">
+					<p>Declaration of Independance Signed</p>
+				</div>
+				<div class="item">
+					<img src="images/carousel/betsy-ross.jpg" alt="The First US Flag">
+					<p>Betsy Ross makes the first US flag</p>
+				</div>
+				<div class="item">
+					<img src="images/carousel/bus.jpg" alt="The First Bank of United States">
+					<p>The First Bank of US established</p>
+				</div>
+				<div class="item">
+					<img src="images/carousel/independance-hall.jpg" alt="Independance Hall">
+					<p>Constitutional Convention at Independance Hall</p>
+				</div>
+				<div class="item">
+					<img src="images/carousel/congress-hall.jpg" alt="Congress Hall">
+					<p>First Congress of US meets at Congress Hall</p>
+				</div>
+				<div class="item">
+					<img src="images/carousel/hospital.jpg" alt="Children's Hospital of Philadelphia">
+					<p>First Pediatric Hospital of US</p>
+				</div>
 
 			</div>
 		</div>
@@ -58,15 +83,15 @@
  
   				$("#owl-demo").owlCarousel({
  
-      				autoPlay: 3000, //Set AutoPlay to 3 seconds
+      				autoPlay: 4000, //Set AutoPlay to 4 seconds
  					navigation: false,
  					goToFirst: true,
 
-      				items : 4,
+      				items : 3,
       				itemsDesktop : [1199,3],
-      				itemsDesktopSmall : [979,3],
-      				itemsTablet: false,
-      				itemsMobile: false
+      				itemsDesktopSmall : [979,2],
+      				itemsTablet: [768,2],
+      				itemsMobile: [479,1]
  
   				});
  
