@@ -68,7 +68,7 @@
 				</div>
 				<div class="item">
 					<img src="images/carousel/hospital.jpg" alt="Children's Hospital of Philadelphia">
-					<p>First Pediatric Hospital of US</p>
+					<p>First Pediatric Hospital of US established</p>
 				</div>
 
 			</div>
@@ -76,7 +76,7 @@
 
 		<?php include "inc/footer.php";?>
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<?php include "inc/scripts.php";?>
 		<script src="js/owl.carousel.js"></script>
 		<script>
 			$(document).ready(function() {

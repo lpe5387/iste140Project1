@@ -65,6 +65,11 @@ nav li a:hover {
 
 }
 
+.is-current {
+    background-color: darkgray;
+    color: royalblue;
+}
+
 
 
 /* MEDIA QUERIES*/
