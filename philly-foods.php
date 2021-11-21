@@ -19,9 +19,15 @@
 			<article>
 
 				<h2>The Cheesesteak</h2>
-				<figure>
+				<div>
 				<img src="images/cheesesteak/Genos-Steaks.jpg" alt="Geno's Steaks">
-				</figure>
+				<img src="images/cheesesteak/Dalessandros-Steaks.jpg" alt="Dalessandro's Steaks">
+				<img src="images/cheesesteak/Maxs-Steaks.jpg" alt="Max's Steaks">
+				<img src="images/cheesesteak/Pats-Steaks.jpg" alt="Pat's Steaks">
+				<img src="images/cheesesteak/Philips-Steaks.jpg" alt="Philip's Steaks">
+				<img src="images/cheesesteak/Steves-Steaks.jpg" alt="Steve's Steaks">
+				<img src="images/cheesesteak/Tonys-Steaks.jpg" alt="Tony's Steaks">
+				</div>
 				<p>The ultimate iconic Philly food is the cheesesteak. Invented by Pat Olivieri of Pat’s Steaks in 1930 and imitated by many, a true Philly cheesesteak requires thinly sliced beef and a crusty roll. But the choice of cheese — provolone, American or Cheez Whiz — is a matter of great debate. So is the choice of sandwich shop. The age-old feud between Pat’s King of Steaks and its across-the-street rival Geno’s Steaks draws thousands of visitors to Ninth Street and Passyunk Avenue for taste-offs. Other spots like Dalessandro’s Steaks and Hoagies, John’s Roast Pork, Joe’s Steak + Soda Shop, Steve’s Prince of Steaks, Tony Luke’s, Jim’s Steaks, Max’s Steaks and Delco Steaks also have impressive numbers of devoted fans. Your next best cheesesteak awaits with our guide on where to find them in Philly.</p>
 			
 			</article>
