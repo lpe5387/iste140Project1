@@ -14,11 +14,11 @@
 		
 		</div>
 
-		<div class="container">
+		<div class="container inner-container">
 
 			<article>
 
-				<h2>The Cheesesteak</h2>
+				<h2 class="full-width">The Cheesesteak</h2>
 				<div class="slider">
 				<img src="images/cheesesteak/Genos-Steaks.jpg" alt="Geno's Steaks">
 				<img src="images/cheesesteak/Dalessandros-Steaks.jpg" alt="Dalessandro's Steaks">
