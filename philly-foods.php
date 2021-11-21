@@ -1,5 +1,5 @@
 <?php include "inc/html-top.php";?>
-
+	
 	<body>
 		
 		<div class="above">
@@ -19,7 +19,7 @@
 			<article>
 
 				<h2>The Cheesesteak</h2>
-				<div>
+				<div class="slider">
 				<img src="images/cheesesteak/Genos-Steaks.jpg" alt="Geno's Steaks">
 				<img src="images/cheesesteak/Dalessandros-Steaks.jpg" alt="Dalessandro's Steaks">
 				<img src="images/cheesesteak/Maxs-Steaks.jpg" alt="Max's Steaks">
@@ -56,6 +56,11 @@
 		<?php include "inc/footer.php";?>
 
 		<?php include "inc/scripts.php";?>
+
+		<script src="sss/sss.js"></script>
+		<script>
+    	$('.slider').sss();
+    	</script>
 
 	</body>
 </html>
