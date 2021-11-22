@@ -16,7 +16,7 @@
 
 		<div class="container">
 
-			<article class="inner-container">
+			<article>
 
 				<h2 class="full-width">The Cheesesteak</h2>
 
