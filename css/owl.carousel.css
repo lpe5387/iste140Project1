@@ -84,7 +84,11 @@
   	-moz-border-radius: 3px;
   	border-radius: 3px;
   	text-align: center;
+  	font-family: Monospace, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
+
 .item img {
 	width: 100%;
 }
